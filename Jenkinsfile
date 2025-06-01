@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         ImageRegistry = 'gabriel818'
-        EC2_IP = '34.254.177.213'
+        EC2_IP = '3.253.157.12'
         DockerComposeFile = 'docker-compose.yml'
         DotEnvFile = '.env'
         DockerImageTag = "${ImageRegistry}/${JOB_NAME}:${BUILD_NUMBER}"
