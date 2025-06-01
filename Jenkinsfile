@@ -1,3 +1,6 @@
+// Load the external script.groovy file
+def gv
+
 pipeline {
     agent any
 
